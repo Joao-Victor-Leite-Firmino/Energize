@@ -13,5 +13,5 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
-  ]
+, "Backend/models/Record.js", "Backend/models/User.js", "Backend/routes/userRoutes.js", "Backend/routes/recordRoutes.js"  ]
 }
