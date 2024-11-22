@@ -33,6 +33,11 @@ export default function LoginScreen({ navigation }: ScreenProps<'Login'>) {
       />
       <Button title="Entrar" onPress={handleLogin} />
       {errorMessage ? <Text style={styles.error}>{errorMessage}</Text> : null}
+
+      <Button
+      title="Não tem uma conta? Registre-se"
+      onPress={() => navigation.navigate('Register')}
+      />
     </View>
   );
 }
